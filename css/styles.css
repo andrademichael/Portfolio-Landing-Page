@@ -17,64 +17,36 @@ ul{
   font-style: oblique;
 }
 
-div{
-
+p{
+  font-size: 14pt;
 }
 
 h3{
   text-align: center;
 }
 
-li{
-}
-p{
-}
-.container{
-
-}
-.carousel-inner > .item > img,
-.carousel-inner > .itme > a > img{
-  display: block;
-  max-width: 100%;
-  height: 500px;
-}
-
-#bannercontainer{
-  position: center-block;
+#banner{
   border-color: 10px gray;
   border-style: ridge;
-  width: 75%;
-  padding: 5px;
-  margin-left: auto;
-  margin-bottom: 5%;
-  margin-top: 5%;
 }
 
-#navbarcontainer{
-  width: 150px;
-  margin: 5%;
-  margin-top: 2.5%;
+#navbar{
   border-style: ridge;
   float: left;
   text-align: center;
 }
 
-#linkscontainer{
-  width: 150px;
-  margin: 5%;
-  float: right;
-  border-style: groove;
+#links{
+  margin-top: 15%;
   text-align: left;
-}
-
-#myCarousel{
-  position: sticky;
-  margin: auto;
-  width: 50%;
-  height:50%;
+  border-style: inset;
+  font-weight: bolder;
+  font-size: 36pt;
 }
 
 #footer{
-  position: sticky;
+  background-color: red;
+  position: fixed;
   bottom: 0;
+  font-size: 18pt;
 }
