@@ -1,0 +1,23 @@
+.container{
+  border-style:ridge;
+}
+
+
+#bannercontainer{
+  border: 10px green;
+  padding: 5px;
+  margin 15px;
+}
+
+#navbarcontainer{
+  border: solid
+  float: left
+}
+
+#linkscontainer{
+  float: right
+}
+
+#carouselcontainer{
+
+}
