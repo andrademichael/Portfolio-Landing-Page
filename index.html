@@ -2,66 +2,68 @@
 <html lang="en">
   <!--Head-->
   <head>
+    <!--Bootstrap Meta Tags for media responsiveness-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--tab text-->
     <title>Michael Andrade</title>
-    <!--Prefab Stylesheets-->
-
+    <!--Prefab Bootstrap Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
     <!--Custom Stylesheet-->
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
   </head>
   <!--End Head-->
-
   <!--Body-->
   <body>
-    <!--Main Body Container-->
-    <div class="container" id="maincontainer">
-      <!--Banner-->
-      <div class="container" id="bannercontainer">
-        <h1>Michael Andrade</h1>
-        <h2>Apprentice Codesmith</h2>
-        <p>Michael has been a student at Epicodus for [counter] days. Learning <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Git</strong>, but more importantly, practicing <strong>pair programming</strong> and learning <em>how</em> to learn.</p>
-      </div>
-      <!--End Banner-->
-
-      <!--Navbar-->
-      <div class="container" id="navbarcontainer">
-        <h3>About Me</h3>
-        <ul id="navbarlist">
-          <li><a href="./history.html">History</li>
-          <li><a href="./hobbies.html">Hobbies</li>
-
-
-        </ul>
-      </div>
-      <!--End Navbar-->
-
-      <!--Links-->
-      <div class="container" id="linkscontainer">
-        <h3>Past Projects</h3>
-        <ul id="linkslist">
-          <li><a href="https://github.com/andrademichael/Bird">Bird Page</li>
-          <li><a href="https://github.com/andrademichael/hello-world">Hello World</li>
-          <li><a href="https://github.com/andrademichael/my-first-webpage">My First Webpage</li>
-          <li><a href="https://github.com/andrademichael/goodbye">Goodbye</li>
-        </ul>
-      </div>
-      <!--End Links-->
-
-      <!--Center Carousel-->
-      <div class="container" id="carouselcontainer">
-        <a img src="img/cat-on-tub.jpg">
-        <a img src="img/coffee-and-books.jpg">
-        <a img src="img/googly-eyes.jpg">
-        <a img src="img/whale-skeleton.jpg">
-
-      </div>
-      <!--End Carousel-->
-      <div class="container" id="footer">
-        <p><a href="./readme.html">About this page</p>
-      </div>
+    <!--Banner-->
+    <div class="container" id="bannercontainer">
+      <h1>Michael Andrade</h1>
+      <h2>Apprentice Codesmith</h2>
+      <p>Michael has been a student at Epicodus since August 1st, 2016. Learning <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Git</strong>, but more importantly, practicing <strong>pair programming</strong> and learning <em>how</em> to learn code.</p>
     </div>
-    <!--End Main Container-->
+    <!--End Banner-->
+    <!--Navbar-->
+    <div class="container" id="navbarcontainer">
+      <h3>About Me</h3>
+      <ul id="navbarlist">
+        <li><a href="./history.html">History</a></li>
+        <li><a href="./hobbies.html">Hobbies</a></li>
+      </ul>
+    </div>
+    <!--End Navbar-->
+    <!--Links-->
+    <div class="container" id="linkscontainer">
+      <h3>Past Projects</h3>
+      <ul id="linkslist">
+        <li><a href="https://github.com/andrademichael/Bird">Bird Page</a></li>
+        <li><a href="https://github.com/andrademichael/hello-world">Hello World</a></li>
+        <li><a href="https://github.com/andrademichael/my-first-webpage">My First Webpage</a></li>
+        <li><a href="https://github.com/andrademichael/goodbye">Goodbye</a></li>
+      </ul>
+    </div>
+    <!--End Links-->
+    <!--Center Carousel-->
+    <div  id="carouselcontainer" data-ride="carousel" class="carousel-slide">
+      <!--Carousel Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!--End Indicators-->
+      <ul>
+        <img src="img/cat-on-tub.jpg" alt="A cat reaching for a tub faucet, about to fall in.">
+        <img src="img/coffee-and-books.jpg" alt="Michael sitting in front of a colorful bookshelf, holding a coffee cup and grinning off to the left.">
+        <img src="img/googly-eyes.jpg" alt="A tape measure and Swiss Army Knife with googly eyes attached.">
+        <img src="img/whale-skeleton.jpg" alt="Michael looking up, standing inside ribcage of a model whale skeleton.">
+      </ol>
+    </div>
+    <!--End Carousel-->
+    <div class="container" id="footer">
+      <p><a href="./readme.html">About this page</a></p>
+    </div>
   </body>
   <!--End Body-->
-
   <!--JS and such below-->
 </html>
