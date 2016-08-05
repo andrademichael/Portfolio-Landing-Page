@@ -13,7 +13,7 @@ _This project is the bare bones of an online portfolio and personal homepage. It
 * To view this page, make sure you're using a browser and not reading the Matrix's code directly.
 * Verify that your computer is plugged in, or uses a battery.
 * Both Javascript and JQuery need to exist somewhere within reach of your computer.
-
+* The page is published at https://andrademichael.github.io/
 ## Known Bugs
 
 _Formatting will likely break on smaller screens. Also, some of the puns are very bad, but they don't bug me._
