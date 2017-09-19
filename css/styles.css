@@ -2,6 +2,10 @@ body{
  background-image: url(../img/greenbg.jpg);
 }
 
+img{
+ width: 600px;
+}
+
 h1{
   text-align: center;
   text-shadow: 2px, 2px, grey;
